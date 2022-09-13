@@ -7,73 +7,131 @@
     <title>Wanderlust</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md fixed-top bg-light p-3 box-shadow">
-      <a class="navbar-brand" href="index.html"
-        ><svg
-          width="188"
-          height="29"
-          viewBox="0 0 188 29"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
+    <nav class="navbar navbar-expand-md fixed-top bg-light box-shadow py-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><svg
+            width="188"
+            height="29"
+            viewBox="0 0 188 29"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.82 28.204H10.078L15.45 13.074L15.688 12.53H14.838L20.21 28.204H21.434L27.35 10.49H25.956L21.434 25.348L21.298 25.824H21.91L16.572 10.49H15.246L10.044 25.28L9.874 25.824L10.52 25.79L5.556 10.49H2.598L8.82 28.204ZM0.796 11.476L4.094 11.782H4.978L9.024 11.476V10.49H0.796V11.476ZM12.118 11.476L15.586 11.782H16.334L19.768 11.476V10.49H12.118V11.476ZM22.522 11.476L26.126 11.782H26.602L29.288 11.476V10.49H22.522V11.476ZM35.383 28.51C37.933 28.51 39.429 27.354 41.537 25.042H42.353L42.047 23.444C39.429 26.062 38.103 26.844 36.607 26.844C34.703 26.844 33.411 25.79 33.411 23.648C33.411 21.812 34.533 20.35 37.389 19.296C38.919 18.718 40.891 18.174 42.693 17.698V16.882C40.857 17.29 38.681 17.868 36.777 18.412C32.289 19.738 30.691 21.472 30.691 24.09C30.691 26.946 32.697 28.51 35.383 28.51ZM44.461 28.476C45.787 28.476 46.807 27.932 47.555 26.776L47.011 26.232C46.433 26.878 46.059 27.082 45.481 27.082C44.529 27.082 44.053 26.47 44.053 24.362V15.964C44.053 11.714 42.149 9.98 38.205 9.98C34.363 9.98 31.813 11.646 31.167 14.434C31.337 15.216 31.881 15.624 32.663 15.624C33.479 15.624 34.091 15.216 34.261 13.992L34.839 11.306L33.343 12.224C34.873 11.374 36.131 11.034 37.457 11.034C40.143 11.034 41.333 12.02 41.333 15.794V24.634C41.469 27.048 42.455 28.476 44.461 28.476ZM49.2768 28H57.6068V27.082L54.0708 26.708H52.9828L49.2768 27.082V28ZM52.0648 28H55.0908C55.0228 26.368 54.9888 22.56 54.9888 20.248V14.298L54.7508 10.354L54.3088 10.048L49.0728 11.442V12.292L52.0648 12.462C52.1668 14.162 52.2008 15.862 52.2008 18.174V20.248C52.2008 22.56 52.1668 26.368 52.0648 28ZM60.8368 28H69.1668V27.082L65.6308 26.708H64.5088L60.8368 27.082V28ZM63.6248 28H66.6168C66.5488 26.368 66.4808 22.628 66.4808 20.248V16.372C66.4808 11.782 64.7128 9.98 61.7548 9.98C59.3748 9.98 56.9268 11.17 54.4448 14.23H54.1048L54.4108 15.352C56.8588 12.632 59.0688 11.816 60.5988 11.816C62.5708 11.816 63.7268 12.972 63.7268 16.304V20.248C63.7268 22.628 63.6928 26.368 63.6248 28ZM79.4393 28.51C81.7853 28.51 83.8253 27.456 85.3893 25.212H85.6953L85.2873 24.26C83.6893 26.164 82.2613 26.912 80.4253 26.912C77.2973 26.912 74.9853 24.566 74.9853 19.398C74.9853 13.822 77.5353 11.544 80.6293 11.544C82.2953 11.544 83.7233 12.258 85.3213 14.026L85.7633 13.142H85.4233C83.7573 10.898 81.8873 9.98 79.9153 9.98C75.4613 9.98 71.9933 13.584 71.9933 19.466C71.9933 24.872 75.0873 28.51 79.4393 28.51ZM85.0493 28.34L90.8293 28V27.082L87.6673 26.844V6.104L87.7693 0.935998L87.2593 0.629998L81.8873 1.65V2.568L84.9473 2.738V13.04L84.8793 13.38V25.008L85.0493 28.34ZM102.046 28.51C105.106 28.51 107.35 27.116 108.846 24.804L108.302 24.328C106.908 25.96 105.174 26.81 102.794 26.81C99.0201 26.81 96.3001 24.396 96.3001 18.888C96.3001 13.958 98.6801 11.068 101.672 11.068C104.46 11.068 106.092 13.142 106.092 16.032C106.092 17.426 105.752 18.004 104.562 18.004H94.6681V19.092H108.574C108.71 18.548 108.778 17.868 108.778 17.018C108.778 13.04 106.16 9.98 101.74 9.98C97.2521 9.98 93.3761 13.55 93.3761 19.296C93.3761 25.416 96.9801 28.51 102.046 28.51ZM111.732 28H120.708V27.082L116.866 26.674H115.472L111.732 27.082V28ZM114.52 28H117.546C117.478 26.368 117.444 22.56 117.444 20.248V15.148L117.206 10.354L116.764 10.048L111.528 11.442V12.292L114.52 12.462C114.622 14.162 114.656 15.862 114.656 18.174V20.248C114.656 22.56 114.622 26.368 114.52 28ZM117.41 17.188C118.6 13.856 120.198 12.122 122.578 11.442L121.014 11.408L121.796 12.156C122.578 12.972 123.19 13.414 124.04 13.414C125.264 13.414 125.808 12.7 125.808 11.51C125.502 10.524 124.414 9.98 123.088 9.98C120.708 9.98 118.328 12.088 117.274 15.42H116.662L117.41 17.188ZM127.199 28H136.243V27.082L132.265 26.708H131.177L127.199 27.082V28ZM130.259 28H133.285C133.183 25.892 133.149 22.662 133.149 20.248V6.24L133.285 0.935998L132.775 0.629998L127.369 1.65V2.568L130.361 2.738V20.248C130.361 22.662 130.327 25.892 130.259 28ZM145.973 28.51C148.795 28.51 151.073 26.878 152.807 24.498H153.725L152.909 23.206C151.311 25.348 149.305 26.606 147.197 26.606C144.987 26.606 143.763 25.348 143.763 21.71V15.08L143.933 10.626L143.559 10.218L138.255 10.762V11.646L141.791 12.156L141.043 11.578L140.975 21.71C140.941 26.742 142.743 28.51 145.973 28.51ZM152.637 28.34L157.873 28.034V27.082L155.289 26.81V15.08L155.425 10.626L155.085 10.218L149.815 10.796V11.68L152.569 11.986L152.501 24.09V24.124L152.637 28.34ZM166.926 28.51C171.516 28.51 173.896 26.232 173.896 23.274C173.896 20.894 172.57 19.33 169.136 18.14L167.436 17.528C164.954 16.712 163.934 15.794 163.934 14.128C163.934 12.36 165.26 11.068 167.878 11.068C169.272 11.068 170.462 11.476 171.856 12.462V11.34L170.802 11.17L171.584 15.114H172.944L173.08 11.476C171.38 10.456 169.884 9.98 167.878 9.98C163.764 9.98 161.486 12.156 161.486 15.012C161.486 17.562 163.22 19.058 165.974 20.01L167.742 20.656C170.53 21.54 171.38 22.526 171.38 24.158C171.38 26.096 169.85 27.422 166.824 27.422C164.852 27.422 163.56 26.946 162.268 26.096V27.32L163.526 27.388L162.71 23.138H161.248V27.15C163.084 28.034 164.716 28.51 166.926 28.51ZM180.718 11.748H187.008V10.49H180.718V11.748ZM183.472 28.51C185.274 28.51 186.6 27.898 187.518 26.776L187.042 26.164C186.124 26.742 185.478 27.014 184.458 27.014C182.962 27.014 182.146 26.13 182.146 24.022V11L182.282 5.152H180.378L179.392 10.864L180.038 10.388L175.958 10.694V11.748H179.324V20.962C179.324 22.22 179.29 22.934 179.29 24.022C179.29 27.048 180.616 28.51 183.472 28.51Z"
+              fill="black"
+            />
+          </svg>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+          aria-controls="menu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <path
-            d="M8.82 28.204H10.078L15.45 13.074L15.688 12.53H14.838L20.21 28.204H21.434L27.35 10.49H25.956L21.434 25.348L21.298 25.824H21.91L16.572 10.49H15.246L10.044 25.28L9.874 25.824L10.52 25.79L5.556 10.49H2.598L8.82 28.204ZM0.796 11.476L4.094 11.782H4.978L9.024 11.476V10.49H0.796V11.476ZM12.118 11.476L15.586 11.782H16.334L19.768 11.476V10.49H12.118V11.476ZM22.522 11.476L26.126 11.782H26.602L29.288 11.476V10.49H22.522V11.476ZM35.383 28.51C37.933 28.51 39.429 27.354 41.537 25.042H42.353L42.047 23.444C39.429 26.062 38.103 26.844 36.607 26.844C34.703 26.844 33.411 25.79 33.411 23.648C33.411 21.812 34.533 20.35 37.389 19.296C38.919 18.718 40.891 18.174 42.693 17.698V16.882C40.857 17.29 38.681 17.868 36.777 18.412C32.289 19.738 30.691 21.472 30.691 24.09C30.691 26.946 32.697 28.51 35.383 28.51ZM44.461 28.476C45.787 28.476 46.807 27.932 47.555 26.776L47.011 26.232C46.433 26.878 46.059 27.082 45.481 27.082C44.529 27.082 44.053 26.47 44.053 24.362V15.964C44.053 11.714 42.149 9.98 38.205 9.98C34.363 9.98 31.813 11.646 31.167 14.434C31.337 15.216 31.881 15.624 32.663 15.624C33.479 15.624 34.091 15.216 34.261 13.992L34.839 11.306L33.343 12.224C34.873 11.374 36.131 11.034 37.457 11.034C40.143 11.034 41.333 12.02 41.333 15.794V24.634C41.469 27.048 42.455 28.476 44.461 28.476ZM49.2768 28H57.6068V27.082L54.0708 26.708H52.9828L49.2768 27.082V28ZM52.0648 28H55.0908C55.0228 26.368 54.9888 22.56 54.9888 20.248V14.298L54.7508 10.354L54.3088 10.048L49.0728 11.442V12.292L52.0648 12.462C52.1668 14.162 52.2008 15.862 52.2008 18.174V20.248C52.2008 22.56 52.1668 26.368 52.0648 28ZM60.8368 28H69.1668V27.082L65.6308 26.708H64.5088L60.8368 27.082V28ZM63.6248 28H66.6168C66.5488 26.368 66.4808 22.628 66.4808 20.248V16.372C66.4808 11.782 64.7128 9.98 61.7548 9.98C59.3748 9.98 56.9268 11.17 54.4448 14.23H54.1048L54.4108 15.352C56.8588 12.632 59.0688 11.816 60.5988 11.816C62.5708 11.816 63.7268 12.972 63.7268 16.304V20.248C63.7268 22.628 63.6928 26.368 63.6248 28ZM79.4393 28.51C81.7853 28.51 83.8253 27.456 85.3893 25.212H85.6953L85.2873 24.26C83.6893 26.164 82.2613 26.912 80.4253 26.912C77.2973 26.912 74.9853 24.566 74.9853 19.398C74.9853 13.822 77.5353 11.544 80.6293 11.544C82.2953 11.544 83.7233 12.258 85.3213 14.026L85.7633 13.142H85.4233C83.7573 10.898 81.8873 9.98 79.9153 9.98C75.4613 9.98 71.9933 13.584 71.9933 19.466C71.9933 24.872 75.0873 28.51 79.4393 28.51ZM85.0493 28.34L90.8293 28V27.082L87.6673 26.844V6.104L87.7693 0.935998L87.2593 0.629998L81.8873 1.65V2.568L84.9473 2.738V13.04L84.8793 13.38V25.008L85.0493 28.34ZM102.046 28.51C105.106 28.51 107.35 27.116 108.846 24.804L108.302 24.328C106.908 25.96 105.174 26.81 102.794 26.81C99.0201 26.81 96.3001 24.396 96.3001 18.888C96.3001 13.958 98.6801 11.068 101.672 11.068C104.46 11.068 106.092 13.142 106.092 16.032C106.092 17.426 105.752 18.004 104.562 18.004H94.6681V19.092H108.574C108.71 18.548 108.778 17.868 108.778 17.018C108.778 13.04 106.16 9.98 101.74 9.98C97.2521 9.98 93.3761 13.55 93.3761 19.296C93.3761 25.416 96.9801 28.51 102.046 28.51ZM111.732 28H120.708V27.082L116.866 26.674H115.472L111.732 27.082V28ZM114.52 28H117.546C117.478 26.368 117.444 22.56 117.444 20.248V15.148L117.206 10.354L116.764 10.048L111.528 11.442V12.292L114.52 12.462C114.622 14.162 114.656 15.862 114.656 18.174V20.248C114.656 22.56 114.622 26.368 114.52 28ZM117.41 17.188C118.6 13.856 120.198 12.122 122.578 11.442L121.014 11.408L121.796 12.156C122.578 12.972 123.19 13.414 124.04 13.414C125.264 13.414 125.808 12.7 125.808 11.51C125.502 10.524 124.414 9.98 123.088 9.98C120.708 9.98 118.328 12.088 117.274 15.42H116.662L117.41 17.188ZM127.199 28H136.243V27.082L132.265 26.708H131.177L127.199 27.082V28ZM130.259 28H133.285C133.183 25.892 133.149 22.662 133.149 20.248V6.24L133.285 0.935998L132.775 0.629998L127.369 1.65V2.568L130.361 2.738V20.248C130.361 22.662 130.327 25.892 130.259 28ZM145.973 28.51C148.795 28.51 151.073 26.878 152.807 24.498H153.725L152.909 23.206C151.311 25.348 149.305 26.606 147.197 26.606C144.987 26.606 143.763 25.348 143.763 21.71V15.08L143.933 10.626L143.559 10.218L138.255 10.762V11.646L141.791 12.156L141.043 11.578L140.975 21.71C140.941 26.742 142.743 28.51 145.973 28.51ZM152.637 28.34L157.873 28.034V27.082L155.289 26.81V15.08L155.425 10.626L155.085 10.218L149.815 10.796V11.68L152.569 11.986L152.501 24.09V24.124L152.637 28.34ZM166.926 28.51C171.516 28.51 173.896 26.232 173.896 23.274C173.896 20.894 172.57 19.33 169.136 18.14L167.436 17.528C164.954 16.712 163.934 15.794 163.934 14.128C163.934 12.36 165.26 11.068 167.878 11.068C169.272 11.068 170.462 11.476 171.856 12.462V11.34L170.802 11.17L171.584 15.114H172.944L173.08 11.476C171.38 10.456 169.884 9.98 167.878 9.98C163.764 9.98 161.486 12.156 161.486 15.012C161.486 17.562 163.22 19.058 165.974 20.01L167.742 20.656C170.53 21.54 171.38 22.526 171.38 24.158C171.38 26.096 169.85 27.422 166.824 27.422C164.852 27.422 163.56 26.946 162.268 26.096V27.32L163.526 27.388L162.71 23.138H161.248V27.15C163.084 28.034 164.716 28.51 166.926 28.51ZM180.718 11.748H187.008V10.49H180.718V11.748ZM183.472 28.51C185.274 28.51 186.6 27.898 187.518 26.776L187.042 26.164C186.124 26.742 185.478 27.014 184.458 27.014C182.962 27.014 182.146 26.13 182.146 24.022V11L182.282 5.152H180.378L179.392 10.864L180.038 10.388L175.958 10.694V11.748H179.324V20.962C179.324 22.22 179.29 22.934 179.29 24.022C179.29 27.048 180.616 28.51 183.472 28.51Z"
-            fill="black"
-          />
-        </svg>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#menu"
-        aria-controls="menu"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="menu">
-        <ul class="navbar-nav mt-2 mt-md-0">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Destinations
-            </a>
-            <ul class="dropdown-menu" style="margin: 0">
-              <li><a class="dropdown-item" href="destination.html">USA</a></li>
-              <li>
-                <a class="dropdown-item" href="destination.html">France</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="destination.html">Italy</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="plans.html">Plans</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Login</a>
-          </li>
-          <li class="nav-item mt-2 mt-md-0">
-            <a class="btn btn-outline-primary ms-md-2" href="subscribe.html"
-              >Subscribe</a
-            >
-          </li>
-        </ul>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="menu">
+          <ul class="navbar-nav mt-2 mt-md-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Destinations
+              </a>
+              <ul class="dropdown-menu" style="margin: 0">
+                <li>
+                  <a class="dropdown-item" href="destination.html">USA</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="destination.html">France</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="destination.html">Italy</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="plans.html">Plans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#loginModal"
+                >Login</a
+              >
+            </li>
+            <li class="nav-item mt-2 mt-md-0">
+              <a class="btn btn-outline-primary ms-md-2" href="subscribe.html"
+                >Subscribe</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
+    <!-- Login Modal -->
+    <div
+      class="modal fade"
+      id="loginModal"
+      tabindex="-1"
+      aria-labelledby="loginModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="loginModalLabel">Login</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <label for="login-email" class="form-label">Email</label>
+              <input
+                type="email"
+                name="login-email"
+                id="login-email"
+                class="form-control mb-3"
+              />
+              <label for="login-password" class="form-label">Password</label>
+              <input
+                type="password"
+                name="login-password"
+                id="login-password"
+                class="form-control mb-3"
+              />
+              <button type="submit" class="btn btn-primary d-block">
+                Login
+              </button>
+              <small class="text-muted"
+                >Forgot your password?<a href="#" class="link-primary">
+                  Click here.</a
+                ></small
+              >
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <main>
-      <section class="hero">
+      <section>
         <div class="container-fluid p-0">
           <div class="row g-0 align-items-center text-bg-dark">
             <div class="col-lg-7">
@@ -119,7 +177,7 @@
                     <img
                       src="<%=require('./assets/paris.jpg')%>"
                       class="d-block w-100"
-                      alt="."
+                      alt=""
                     />
                     <div class="carousel-caption d-none d-md-block">
                       <h2 class="display-4">France</h2>
@@ -190,7 +248,7 @@
           </div>
         </div>
       </section>
-      <section class="benefits py-5">
+      <section class="py-5 bg-light">
         <div class="container text-center">
           <div class="py-5">
             <p class="h6 text-uppercase">The best for you</p>
@@ -269,19 +327,17 @@
       <section id="quote" class="p-3 p-md-5 d-flex justify-content-center">
         <figure class="text-center p-3 p-md-5 mb-0">
           <blockquote class="blockquote">
-            <p class="display-4 text-white">
+            <p class="display-4 text-white fst-italic">
               "The world is a book and those who do not travel read only one
               page."
             </p>
           </blockquote>
           <figcaption class="blockquote-footer mt-3 mb-0 fs-5 text-white">
-            <cite title="Saint Augustine" class="text-white"
-              >Saint Augustine</cite
-            >
+            Saint Augustine
           </figcaption>
         </figure>
       </section>
-      <section id="questions" class="py-5">
+      <section class="py-5">
         <div class="container">
           <div class="mb-5 text-center">
             <p class="h6 text-uppercase">Any questions?</p>
@@ -291,7 +347,7 @@
             <div class="col-lg-8 col-xl-6">
               <div class="accordion accordion-flush" id="faq">
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="question1-heading">
+                  <h3 class="accordion-header" id="question1-heading">
                     <button
                       class="accordion-button"
                       type="button"
@@ -302,7 +358,7 @@
                     >
                       → Can you work within a certain budget?
                     </button>
-                  </h2>
+                  </h3>
                   <div
                     id="question1"
                     class="accordion-collapse collapse show"
@@ -319,7 +375,7 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="question2-heading">
+                  <h3 class="accordion-header" id="question2-heading">
                     <button
                       class="accordion-button collapsed"
                       type="button"
@@ -330,7 +386,7 @@
                     >
                       → Does it cost money to get a quote?
                     </button>
-                  </h2>
+                  </h3>
                   <div
                     id="question2"
                     class="accordion-collapse collapse"
@@ -346,7 +402,7 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="question3-heading">
+                  <h3 class="accordion-header" id="question3-heading">
                     <button
                       class="accordion-button collapsed"
                       type="button"
@@ -357,7 +413,7 @@
                     >
                       → How do I cancel a trip?
                     </button>
-                  </h2>
+                  </h3>
                   <div
                     id="question3"
                     class="accordion-collapse collapse"
@@ -377,7 +433,7 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="question4-heading">
+                  <h3 class="accordion-header" id="question4-heading">
                     <button
                       class="accordion-button collapsed"
                       type="button"
@@ -388,7 +444,7 @@
                     >
                       → Do I need travel insurance?
                     </button>
-                  </h2>
+                  </h3>
                   <div
                     id="question4"
                     class="accordion-collapse collapse"
@@ -404,7 +460,7 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="question5-heading">
+                  <h3 class="accordion-header" id="question5-heading">
                     <button
                       class="accordion-button collapsed"
                       type="button"
@@ -415,7 +471,7 @@
                     >
                       → Why should I book my trup with Wanderlust?
                     </button>
-                  </h2>
+                  </h3>
                   <div
                     id="question5"
                     class="accordion-collapse collapse"
@@ -440,5 +496,68 @@
         </div>
       </section>
     </main>
+    <footer class="text-bg-dark">
+      <div class="container">
+        <div class="row py-4 text-center text-lg-start">
+          <div class="col-md-6 col-lg-3">
+            <p class="mb-1 text-uppercase h6">Pages</p>
+            <ul class="list-unstyled">
+              <li><a href="plans.html">Plans</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="subscribe.html">Subscribe</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <p class="mb-1 text-uppercase h6">Destinations</p>
+            <ul class="list-unstyled">
+              <li><a href="destination.html">USA</a></li>
+              <li><a href="destination.html">France</a></li>
+              <li><a href="destination.html">Italy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <p class="mb-1 text-uppercase h6">Contact Info</p>
+            <ul class="list-unstyled text-secondary">
+              <li>wanderlust@wanderlust.com</li>
+              <li>+44 20 7777-0007</li>
+              <li>Mon - Fri: 09 - 18</li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <p class="mb-1 text-uppercase h6">Social Media</p>
+            <ul
+              class="list-unstyled hstack gap-4 justify-content-center justify-content-lg-start"
+            >
+              <li>
+                <a href="#"><i class="bi bi-facebook fs-3"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-twitter fs-3"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-instagram fs-3"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="text-center text-bg-primary py-3 py-lg-2">
+        <p class="mb-0">
+          Layout by
+          <a href="https://www.origamid.com/" class="link-info" target="_blank"
+            >Origamid</a
+          >
+        </p>
+        <p class="mb-0">
+          Developed with &#9825; by
+          <a
+            href="https://github.com/julianachagas"
+            class="link-info"
+            target="_blank"
+            >Juliana Chagas</a
+          >
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
