@@ -78,6 +78,22 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'src/template.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'destination.html',
+      template: 'src/destination.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'plans.html',
+      template: 'src/plans.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'contact.html',
+      template: 'src/contact.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'subscribe.html',
+      template: 'src/subscribe.html'
     })
   ]
 };
