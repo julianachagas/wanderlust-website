@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+
 module.exports = {
   target: ['web', 'es5'],
   entry: {
@@ -12,7 +14,7 @@ module.exports = {
     clean: true,
     assetModuleFilename: 'assets/[name][ext]'
   },
-  devtool: 'source-map',
+  devtool: false,
   devServer: {
     static: {
       directory: path.resolve(__dirname, 'dist')
@@ -76,24 +78,30 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      favicon: 'src/favicon.ico',
       filename: 'index.html',
       template: 'src/template.html'
     }),
     new HtmlWebpackPlugin({
+      favicon: 'src/favicon.ico',
       filename: 'destination.html',
       template: 'src/destination.html'
     }),
     new HtmlWebpackPlugin({
+      favicon: 'src/favicon.ico',
       filename: 'plans.html',
       template: 'src/plans.html'
     }),
     new HtmlWebpackPlugin({
+      favicon: 'src/favicon.ico',
       filename: 'contact.html',
       template: 'src/contact.html'
     }),
     new HtmlWebpackPlugin({
+      favicon: 'src/favicon.ico',
       filename: 'subscribe.html',
       template: 'src/subscribe.html'
-    })
+    }),
+    new BundleAnalyzerPlugin()
   ]
 };
