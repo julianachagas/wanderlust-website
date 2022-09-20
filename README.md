@@ -1,5 +1,4 @@
 <img src="github-img/wanderlust-banner.png" alt=""/>
-<br>
 
 # Wanderlust Website ✈️
 
